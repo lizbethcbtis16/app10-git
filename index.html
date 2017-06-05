@@ -1,0 +1,614 @@
+<!DOCTYPE html> 
+<html><head>
+<meta charset="utf-8">
+<title>App10 Carreras Universitarias </title>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app10.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones4.js" type="text/javascript"></script>
+<script src="js/acciones5.js" type="text/javascript"></script>
+<script src="js/acciones7.js" type="text/javascript"></script>
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+</head> 
+<body onLoad="MM_preloadImages('imagenes/Criminologia1.jpg','imagenes/Bo1NWGxCUAAK7rz.jpg','imagenes/psico2.jpg','imagenes/psico4.jpg','imagenes/medi2.jpg','imagenes/medi4.jpg')">
+
+<div data-role="page" id="Principal" data-theme="b">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="regresar"  data-back-btn-theme="b">
+   <h1 class="inicio"> CARRERAS UNIVERSITARIAS </h1>
+  </div>
+  <div data-role="main" class="ui-content">
+   </div>
+
+  <div>
+   <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+   <li class="ui-first-child ui-last-child">
+     <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2 class="inic"> CRIMINALISTICA </h2> 
+     </a>
+  </li>
+  
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2 class="inic"> PSICOLOGIA </h2>
+   </a>
+  </li>
+ 
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2 class="inic"> MEDICINA </h2>
+   </a>
+  </li>
+  </ul>
+  </div>
+  
+  
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/criminologia.jpg" alt="Criminologia" title="Criminologia" id="wows1_0"/></li>
+		<li><img src="data1/images/criminologia0.jpg" alt="Criminologia0" title="Criminologia0" id="wows1_1"/></li>
+		<li><img src="data1/images/criminologia2.jpg" alt="Criminologia2" title="Criminologia2" id="wows1_2"/></li>
+		<li><img src="data1/images/medicina.png" alt="Medicina" title="Medicina" id="wows1_3"/></li>
+		<li><img src="data1/images/medicina1.jpg" alt="Medicina1" title="Medicina1" id="wows1_4"/></li>
+		<li><img src="data1/images/psicologia.jpg" alt="Psicologia" title="Psicologia" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/psicologia0.jpg" alt="wowslider" title="Psicologia0" id="wows1_6"/></a></li>
+		<li><img src="data1/images/psicologia2.jpg" alt="Psicologia2" title="Psicologia2" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Criminologia"><span><img src="data1/tooltips/criminologia.jpg" alt="Criminologia"/>1</span></a>
+		<a href="#" title="Criminologia0"><span><img src="data1/tooltips/criminologia0.jpg" alt="Criminologia0"/>2</span></a>
+		<a href="#" title="Criminologia2"><span><img src="data1/tooltips/criminologia2.jpg" alt="Criminologia2"/>3</span></a>
+		<a href="#" title="Medicina"><span><img src="data1/tooltips/medicina.png" alt="Medicina"/>4</span></a>
+		<a href="#" title="Medicina1"><span><img src="data1/tooltips/medicina1.jpg" alt="Medicina1"/>5</span></a>
+		<a href="#" title="Psicologia"><span><img src="data1/tooltips/psicologia.jpg" alt="Psicologia"/>6</span></a>
+		<a href="#" title="Psicologia0"><span><img src="data1/tooltips/psicologia0.jpg" alt="Psicologia0"/>7</span></a>
+		<a href="#" title="Psicologia2"><span><img src="data1/tooltips/psicologia2.jpg" alt="Psicologia2"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">http://wowslider.com/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+<div data-role="main" class="ui-content" align="center">
+        <div style="width:70%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina13" target="_self" data-role="button" >
+    <h2>Desarrolladora</h2>
+   </a>
+  </li>
+  </ul>
+ </div>
+</div>
+
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/carreras.jpg" alt="Carreras" title="Carreras" id="wows2_0"/></li>
+		<li><img src="data2/images/carreras0.jpg" alt="Carreras0" title="Carreras0" id="wows2_1"/></li>
+		<li><img src="data2/images/carreras1.jpg" alt="Carreras1" title="Carreras1" id="wows2_2"/></li>
+		<li><img src="data2/images/carreras2.jpg" alt="Carreras2" title="Carreras2" id="wows2_3"/></li>
+		<li><img src="data2/images/carreras3.jpg" alt="Carreras3" title="Carreras3" id="wows2_4"/></li>
+		<li><img src="data2/images/carreras4.jpg" alt="Carreras4" title="Carreras4" id="wows2_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data2/images/carreras5.jpg" alt="http://wowslider.com/" title="Carreras5" id="wows2_6"/></a></li>
+		<li><img src="data2/images/carreras6.jpg" alt="Carreras6" title="Carreras6" id="wows2_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Carreras"><span><img src="data2/tooltips/carreras.jpg" alt="Carreras"/>1</span></a>
+		<a href="#" title="Carreras0"><span><img src="data2/tooltips/carreras0.jpg" alt="Carreras0"/>2</span></a>
+		<a href="#" title="Carreras1"><span><img src="data2/tooltips/carreras1.jpg" alt="Carreras1"/>3</span></a>
+		<a href="#" title="Carreras2"><span><img src="data2/tooltips/carreras2.jpg" alt="Carreras2"/>4</span></a>
+		<a href="#" title="Carreras3"><span><img src="data2/tooltips/carreras3.jpg" alt="Carreras3"/>5</span></a>
+		<a href="#" title="Carreras4"><span><img src="data2/tooltips/carreras4.jpg" alt="Carreras4"/>6</span></a>
+		<a href="#" title="Carreras5"><span><img src="data2/tooltips/carreras5.jpg" alt="Carreras5"/>7</span></a>
+		<a href="#" title="Carreras6"><span><img src="data2/tooltips/carreras6.jpg" alt="Carreras6"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slideshow</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+<div data-role="main" class="ui-content" align="center">
+        <div style="width:70%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="http://www.testgratis.net/psicologicos/test-vocacional.aspx" target="_self" data-role="button" >
+    <h2>Test Vocacional</h2>
+   </a>
+  </li>
+  </ul>
+ </div>
+</div>
+
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+       <div>
+         <img src="res/android/mdpi.png" width="46" height="46">
+       </div>
+       <div>
+         <h4> Carreras Que Mas Te Gusten </h4>
+       </div>
+     </div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1> CRIMINALISTICA </h1>
+       </div>
+       
+<div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+     <h1> LICENCIATURA EN CRIMINALISTICA </h1> 
+    <div>
+      <p> <center> <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','imagenes/Criminologia1.jpg',1)"><img src="imagenes/Criminologia.jpg" width="250" height="250" id="Image2"></a> </center> </p>  
+    </div> 
+  </div>
+ </div> 
+ 
+<div data-role="content" align="center">
+         <div>
+           <h2 align="justify"> <center>
+           <span class="INIC"> ¿QUE ES?</span><br> La Criminalística es aquella disciplina auxiliar del Derecho Penal, que se encarga de la demostración de un delito, su explicación, determinar sus autores y la participación de éstos. <br> </center> </h2> 
+           <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image21','','imagenes/Bo1NWGxCUAAK7rz.jpg',1)"><img src="imagenes/Criminologia2.jpg" width="250" height="250" id="Image21"></a></p>
+           
+           <div>
+   <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+   <li class="ui-first-child ui-last-child">
+     <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2 class="inic"> UVM </h2> 
+     </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+     <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2 class="inic"> UPAEP </h2> 
+     </a>
+  </li>
+  </ul>
+ </div>
+ 
+           <div data-role="main" class="ui-content">
+             <div data-role="collapsible" data-content-theme="false">
+     <h1> PERFIL DE EGRESO </h1> 
+    <div>
+     <h3><li>Asesora en la procuración e impartición de justicia.
+<li>Capacita en los sistemas de seguridad pública.
+<li>Diseña estrategias preventivas del delito.
+<li>Propone nuevas soluciones a los problemas de readaptación penitenciaría.
+<li>Resuelve investigaciones por medio de la perfilación criminal.
+<li>Aplica los conocimientos de criminología a casos concretos.
+<li>Elabora políticas criminológicas.
+<li>Elabora perfiles criminales.
+<li>Aplica nuevo sistema penal (acusatorio oral).
+<li>Elabora modelos preventivos</h3>
+    </div> 
+  </div>
+ </div> 
+ 
+          </div>
+       </div>
+
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+       <div>
+         <h4> Carreras Que Mas Te Gusten </h4>
+       </div>
+     </div>
+     </div>
+        
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1> PSICOLOGIA </h1>
+       </div>
+       
+<div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+     <h1> LICENCIATURA EN PSICOLOGIA </h1> 
+    <div>
+      <p> <center>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image23','','imagenes/psico2.jpg',1)"><img src="imagenes/psico1.jpg" width="250" height="250" id="Image23"></a>
+      </center> </p>  
+    </div> 
+  </div>
+ </div> 
+ 
+<div data-role="content" align="center">
+         <div>
+           <h2 align="justify"> <center>
+             <p><span class="INIC"> ¿QUE ES?</span><br> Ciencia que estudia los procesos mentales, las sensaciones, las percepciones y el comportamiento del ser humano, en relación con el medio ambiente físico y social que lo rodea. </p>
+             <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image06','','imagenes/psico4.jpg',1)"><img src="imagenes/psico3.jpg" width="250" height="250" id="Image06"></a><br>
+             </p>
+             
+             <div>
+   <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+   <li class="ui-first-child ui-last-child">
+     <a href="#Pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2 class="inic"> ALVART </h2> 
+     </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+     <a href="#Pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2 class="inic"> UDLAP </h2> 
+     </a>
+  </li>
+  </ul>
+ </div>
+
+           </center> </h2>
+           <div data-role="main" class="ui-content">
+             <div data-role="collapsible" data-content-theme="false">
+     <h1> PERFIL DE EGRESO </h1> 
+    <div>
+     <h3><li>Procesos psicológicos básicos
+<li>Aspectos fundamentales del comportamiento humano
+<li>Correlatos orgánicos de la conducta
+<li>Factores protectores y de riesgo psicosociales
+<li>Procesos individuales, interpersonales, grupales y sociales
+<li>Principios de la ciencia y de la investigación
+<li>Procesos, métodos y técnicas para planear, diagnosticar, intervenir y evaluar principios éticos
+<li>Antecedentes,historia y actualidad de la psicología
+<li>Teorías cláicas y contemporáneas en la práctica psicológica
+<li>Psicología e interdisciplina
+<li>Aspectos jurídicos y legales en la práctica psicológica
+<li>Psicología y los contextos: Social, cultural, político y económico
+<li>Áreas prioritarias de desarrollo local, nacional e internacional</h3> 
+    </div> 
+  </div>
+ </div> 
+ 
+          </div>
+       </div>
+
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+       <div>
+         <h4> Carreras Que Mas Te Gusten </h4>
+       </div>
+     </div>
+     </div>
+     
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1> MEDICINA </h1>
+       </div>
+       
+<div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+     <h1> LICENCIATURA EN MEDICINA </h1> 
+    <div>
+      <p> <center>
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image20','','imagenes/medi2.jpg',1)"><img src="imagenes/medi1.jpg" width="250" height="250" id="Image20"></a>
+      </center> </p>  
+      
+    </div> 
+  </div>
+ </div> 
+ 
+<div data-role="content" align="center">
+         <div>
+           <h2 align="justify"> <center>
+             <p><span class="INIC"> ¿QUE ES?</span><br> Ciencia que estudia las enfermedades que afectan al ser humano, los modos de prevenirlas y las formas de tratamiento para curarlas. </p>
+             <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image05','','imagenes/medi4.jpg',1)"><img src="imagenes/medi3.jpg" width="250" height="250" id="Image05"></a><br>
+             </p>
+             
+               
+       <div>
+   <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+   <li class="ui-first-child ui-last-child">
+     <a href="#Pagina11" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2 class="inic"> UNAM </h2> 
+     </a>
+  </li>
+  <li class="ui-first-child ui-last-child">
+     <a href="#Pagina12" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2 class="inic"> BUAP </h2> 
+     </a>
+  </li>
+  </ul>
+ </div>
+           </center> </h2>
+           <div data-role="main" class="ui-content">
+             <div data-role="collapsible" data-content-theme="false">
+     <h1> PERFIL DE EGRESO </h1> 
+    <div>
+     <h3><li>Un conocimiento adecuado de las ciencias en las que se funda la medicina, así como una buena comprensión de los métodos científicos, incluidos los principios de medida de las funciones biológicas, de evaluación de los hechos científicamente probados y del análisis de datos, que le permitan la autoformación y la capacidad de progresar en la investigación.
+<li>Un conocimiento adecuado de la estructura, funciones y comportamiento de los seres humanos, sanos y enfermos, así como de las relaciones entre el estado de salud del hombre y su entorno físico y social.
+<li>Un conocimiento adecuado de la teoría y de la práctica clínica que le proporcione una visión coherente de las enfermedades mentales y físicas en sus aspectos preventivo, diagnóstico y terapéutico, así como de la reproducción humana.
+<li>Una experiencia clínica adecuada adquirida en hospitales bajo la oportuna supervisión, incluída la aptitud para una comunicación efectiva y respetuosa con el paciente y su entorno.
+<li>Un conocimiento razonado de los principios de equidad y ética médica.
+<li>Capacidad de gestión de sus propios recursos daignósticos y terapéuticos y los de la sanidad pública, así como un conocimiento suficiente de la normativa en el ámbito de la salud.</h3>
+    </div> 
+  </div>
+ </div> 
+ 
+          </div>
+       </div>
+
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+       <div>
+         <h4> Carreras Que Mas Te Gusten </h4>
+       </div>
+     </div>
+     </div>
+     
+     <div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="b">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>UVM</h1>
+       </div>
+       <div data-role="content" align="center">
+         <div>
+         
+           <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+     <h1> IMAGEN </h1> 
+    <div>
+      <p> <center>
+        <h3><img src="imagenes/uvm.png" width="250" height="250"></h3>
+      </center> </p>  
+    </div> 
+  </div>
+ </div> 
+ 
+           <div data-role="main" class="ui-content" align="center">
+        <div style="width:50%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="https://www.universidaduvm.mx/" target="_self" data-role="button" >
+    <h2>Visitar...</h2>
+   </a>
+  </li>
+  </ul>
+ </div>
+</div>
+
+           </div>
+       </div>
+       <div data-role="footer" data-theme="b" data-position="fixed">
+         <h4>Carreras Que Mas Te Gusten</h4>
+       </div>
+     </div>
+     
+      <div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="b">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>UPAEP</h1>
+       </div>
+       <div data-role="content" align="center">
+         <div>
+         
+          <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+     <h1> IMAGEN </h1> 
+    <div>
+      <p> <center>
+       <h3><img src="imagenes/upaep.jpg" width="250" height="250"></h3>
+      </center> </p>  
+    </div> 
+  </div>
+ </div> 
+     
+            <div data-role="main" class="ui-content" align="center">
+        <div style="width:50%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="http://www.upaep.mx/" target="_self" data-role="button" >
+    <h2>Visitar...</h2>
+   </a>
+  </li>
+  </ul>
+ </div>
+</div>
+
+           </div>
+       </div>
+       <div data-role="footer" data-theme="b" data-position="fixed">
+         <h4>Carreras Que Mas Te Gusten</h4>
+       </div>
+     </div>
+     
+      <div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="b">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>ALVART</h1>
+       </div>
+       <div data-role="content" align="center">
+         <div>
+         
+          <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+     <h1> IMAGEN </h1> 
+    <div>
+      <p> <center>
+       <h3><img src="imagenes/alvart.png" width="250" height="250"></h3>
+      </center> </p>  
+    </div> 
+  </div>
+ </div> 
+          
+            <div data-role="main" class="ui-content" align="center">
+        <div style="width:50%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="http://www.institutoalvart.com/" target="_self" data-role="button" >
+    <h2>Visitar...</h2>
+   </a>
+  </li>
+  </ul>
+ </div>
+</div>
+
+           </div>
+       </div>
+       <div data-role="footer" data-theme="b" data-position="fixed">
+         <h4>Carreras Que Mas Te Gusten</h4>
+       </div>
+     </div>
+     
+      <div data-role="page" id="Pagina10" data-add-back-btn="true" data-theme="b">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>UDLAP</h1>
+       </div>
+       <div data-role="content" align="center">
+         <div>
+         
+          <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+     <h1> IMAGEN </h1> 
+    <div>
+      <p> <center>
+      
+           <h3><img src="imagenes/udlap.png" width="250" height="250"></h3>
+      </center> </p>  
+    </div> 
+  </div>
+ </div> 
+           
+           <div data-role="main" class="ui-content" align="center">
+        <div style="width:50%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="https://www.udlap.mx/inicio.aspx" target="_self" data-role="button" >
+    <h2>Visitar...</h2>
+   </a>
+  </li>
+  </ul>
+ </div>
+</div>
+
+           </div>
+       </div>
+       <div data-role="footer" data-theme="b" data-position="fixed">
+         <h4>Carreras Que Mas Te Gusten</h4>
+       </div>
+     </div>
+     
+      <div data-role="page" id="Pagina11" data-add-back-btn="true" data-theme="b">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>UNAM</h1>
+       </div>
+       <div data-role="content" align="center">
+         <div>
+         
+         <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+     <h1> IMAGEN </h1> 
+    <div>
+      <p> <center>
+      
+            <h3><img src="imagenes/unam.png" width="250" height="250"></h3>
+      </center> </p>  
+    </div> 
+  </div>
+ </div> 
+            <div data-role="main" class="ui-content" align="center">
+        <div style="width:50%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="https://www.unam.mx/" target="_self" data-role="button" >
+    <h2>Visitar...</h2>
+   </a>
+  </li>
+  </ul>
+ </div>
+</div>
+     
+           </div>
+       </div>
+       <div data-role="footer" data-theme="b" data-position="fixed">
+         <h4>Carreras Que Mas Te Gusten</h4>
+       </div>
+     </div>
+     
+      <div data-role="page" id="Pagina12" data-add-back-btn="true" data-theme="b">
+       <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+         <h1>BUAP</h1>
+       </div>
+       <div data-role="content" align="center">
+         <div>
+         
+           <div data-role="main" class="ui-content">
+    <div data-role="collapsible" data-content-theme="false">
+     <h1> IMAGEN </h1> 
+    <div>
+      <p> <center>
+      
+             <h3><img src="imagenes/buap.png" width="250" height="250"></h3>
+      </center> </p>  
+    </div> 
+  </div>
+ </div> 
+           
+             <div data-role="main" class="ui-content" align="center">
+        <div style="width:50%;">
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  <li class="ui-first-child ui-last-child">
+   <a href="http://www.buap.mx/" target="_self" data-role="button" >
+    <h2>Visitar...</h2>
+   </a>
+  </li>
+  </ul>
+ </div>
+</div>
+
+           </div>
+       </div>
+       <div data-role="footer" data-theme="b" data-position="fixed">
+         <h4>Carreras Que Mas Te Gusten</h4>
+       </div>
+     </div>
+     
+     <div data-role="page" id="Pagina13" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>DESARROLLADO POR...</h1>
+       </div>
+        <div data-role="content" align="center">
+         <div>
+          <h3>Nombre: Lizbeth Mendez Ahuatl </h3>
+          <h3>Semestre y grupo: 4°&quot;G&quot; </h3>
+          <h3>Sub-módulo: Desarrolla Aplicaciones Móviles (DAM)</h3>
+          <h3>Docente: José Antonio Gómez Hernandez </h3>
+          <h3>Proyecto Final: Carreras Que Mas Te Gusten </h3>
+
+<div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4> Carreras Que Mas Te Gusten</h4>
+</div>
+ </div>
+
+</body>
+</html>
+
